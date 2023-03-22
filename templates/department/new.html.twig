@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 py-4">
+                {{ form_start(departmentForm,{'attr':{'novalidate':'novalidate'}}) }}
+                {{ form_widget(departmentForm) }}
+            {{ form_end(departmentForm) }}
+            {{ form_end(departmentForm) }}
+           </div>
+        </div>
+    </div>
+{% endblock %}
